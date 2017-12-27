@@ -55,9 +55,6 @@
         [number addObject: @(i)];
         CGContextAddLineToPoint(ctx, 40 + 4*i  , 240+ 10* sin(((40+i))*M_1_PI));
     };
-    
-    NSLog(@"%@",number);
-        
     CGContextStrokePath(ctx);
 
 }
