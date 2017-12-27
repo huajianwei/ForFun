@@ -57,17 +57,7 @@
     };
     
     NSLog(@"%@",number);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
     CGContextStrokePath(ctx);
 
 }
