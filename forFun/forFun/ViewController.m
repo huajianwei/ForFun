@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "FirstView.h"
 
+NSString *const HJWNoticeNSString = @"value";
 
 @interface ViewController ()
 
@@ -31,8 +32,6 @@
     myview.backgroundColor = [UIColor cyanColor];
 
     [self.view addSubview:myview];
-    
-//    [self.view addSubview:gameView];
 }
 
 - (void)didReceiveMemoryWarning {
